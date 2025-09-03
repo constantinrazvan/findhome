@@ -14,12 +14,12 @@ import { Property } from "@/models/property.model";
 //   price: number;
 // };
 
-const PostCard = ({ id, title, rooms, squarefeets, location, image, status, type, price }: Property) => {
+const PostCard = ({ id, title, rooms, squarefeets, location, images, status, type, price }: Property) => {
   return (
     <div className="relative flex flex-col bg-white shadow-md rounded-2xl w-96 hover:shadow-lg transition">
       <div className="relative h-56 m-3 overflow-hidden rounded-xl">
         <img
-          src={image}
+          src={images[0]}
           alt={title}
           className="object-cover w-full h-full hover:scale-105 transition-transform duration-300"
         />
