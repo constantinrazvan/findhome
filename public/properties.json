@@ -1,0 +1,124 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "title": "Cozy Cottage",
+      "location": "123 Main St, Springfield",
+      "price": 1400,
+      "image": "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "status": "rent",
+      "type": "house",
+      "rooms": 3,
+      "squarefeets": 120,
+      "description": "A cozy cottage located in the heart of Springfield."
+    },
+    {
+      "id": 2,
+      "title": "Modern Apartment",
+      "location": "456 Elm St, Springfield",
+      "price": 1200,
+      "image": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "status": "rent",
+      "type": "apartment",
+      "rooms": 2,
+      "squarefeets": 80,
+      "description": "A modern apartment with all the amenities."
+    },
+    {
+      "id": 3,
+      "title": "Spacious Villa",
+      "location": "789 Oak St, Springfield",
+      "price": 2000,
+      "image": "https://images.unsplash.com/photo-1605146769289-440113cc3d00?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "status": "rent",
+      "type": "house",
+      "rooms": 5,
+      "squarefeets": 240,
+      "description": "A spacious villa with a beautiful garden."
+    },
+    {
+      "id": 4,
+      "title": "Luxury Penthouse",
+      "location": "101 Pine St, Springfield",
+      "price": 2500,
+      "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=1380&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "status": "rent",
+      "type": "apartment",
+      "rooms": 4,
+      "squarefeets": 180,
+      "description": "A luxurious penthouse with stunning city views."
+    },
+    {
+      "id": 5,
+      "title": "Charming Bungalow",
+      "location": "202 Maple St, Springfield",
+      "price": 1500,
+      "image": "https://images.unsplash.com/photo-1489370321024-e0410ad08da4?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "status": "rent",
+      "type": "house",
+      "rooms": 3,
+      "squarefeets": 150,
+      "description": "A charming bungalow with a cozy atmosphere."
+    },
+    {
+      "id": 6,
+      "title": "Cozy Cottage",
+      "location": "123 Main St, Springfield",
+      "price": 140000,
+      "image": "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "status": "sale",
+      "type": "house",
+      "rooms": 3,
+      "squarefeets": 120,
+      "description": "A cozy cottage located in the heart of Springfield."
+    },
+    {
+      "id": 7,
+      "title": "Modern Apartment",
+      "location": "456 Elm St, Springfield",
+      "price": 120000,
+      "image": "https://www.decorilla.com/online-decorating/wp-content/uploads/2021/05/Ideas-to-design-your-apartment-by-Decorilla-designer-Megan-W-scaled.jpg",
+      "status": "sale",
+      "type": "apartment",
+      "rooms": 2,
+      "squarefeets": 80,
+      "description": "A modern apartment with all the amenities."
+    },
+    {
+      "id": 8,
+      "title": "Spacious Villa",
+      "location": "789 Oak St, Springfield",
+      "price": 200000,
+      "image": "https://www.bhg.com/thmb/H9VV9JNnKl-H1faFXnPlQfNprYw=/1799x0/filters:no_upscale():strip_icc()/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.jpg",
+      "status": "sale",
+      "type": "house",
+      "rooms": 5,
+      "squarefeets": 240,
+      "description": "A spacious villa with a beautiful garden."
+    },
+    {
+      "id": 9,
+      "title": "Luxury Penthouse",
+      "location": "101 Pine St, Springfield",
+      "price": 250000,
+      "image": "https://havenly.com/blog/wp-content/uploads/2021/05/MG_8341-1200x800-5b2df79.jpg",
+      "status": "sale",
+      "type": "apartment",
+      "rooms": 4,
+      "squarefeets": 180,
+      "description": "A luxurious penthouse with stunning city views."
+    },
+    {
+      "id": 10,
+      "title": "Charming Bungalow",
+      "location": "202 Maple St, Springfield",
+      "price": 150000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTapw_XWWJYkuY2JzBMXZsmTWtaGHL3p60_kw&s",
+      "status": "sale",
+      "type": "house",
+      "rooms": 3,
+      "squarefeets": 150,
+      "description": "A charming bungalow with a cozy atmosphere."
+    }
+  ]
+}
