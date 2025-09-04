@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, Play, Star, Users, Home, MapPin } from 'lucide-react';
+import Link from 'next/link';
 
 const HomeHero = () => { 
     return ( 
@@ -40,12 +41,24 @@ const HomeHero = () => {
                             </div>
                         </div>
                         
-                        <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                            <button className="group px-8 py-4 bg-gradient-to-r from-green-500 to-emerald-600 text-white font-semibold rounded-xl shadow-2xl hover:shadow-orange-500/25 transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center">
-                                <Home className="w-5 h-5 mr-2" />
-                                Start Your Search
-                                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-                            </button>
+                        <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start relative z-20">
+                            <Link 
+                                href="/for-sale"
+                                className="group focus:outline-none px-6 py-3 bg-emerald-500 text-white font-medium rounded-lg hover:bg-emerald-600 transform hover:-translate-y-1 transition-all duration-200 flex items-center justify-center min-w-fit relative z-20">
+                                I want to buy!
+                            </Link>
+                            
+                            <Link
+                                href="/for-rent"
+                                className="group focus:outline-none px-6 py-3 bg-emerald-500 text-white font-medium rounded-lg hover:bg-emerald-600 transform hover:-translate-y-1 transition-all duration-200 flex items-center justify-center min-w-fit relative z-20">
+                                I want to rent!
+                            </Link>
+                            
+                            <Link
+                                href="/contact"
+                                className="group focus:outline-none px-6 py-3 bg-emerald-500 text-white font-medium rounded-lg hover:bg-emerald-600 transform hover:-translate-y-1 transition-all duration-200 flex items-center justify-center min-w-fit relative z-20">
+                                Manage my property
+                            </Link>
                         </div>
                     </div>
                     

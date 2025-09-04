@@ -191,16 +191,9 @@ const Properties = () => {
     }
 
     return (
-        <div className="bg-gray-50 min-h-screen">
+        <div className="bg-gray-50 min-h-screen px-5">
             <div className="container mx-auto px-4 py-8 space-y-8">
                 <div className="space-y-4">
-                    <Link 
-                        href="/admin/dashboard" 
-                        className="inline-flex items-center gap-2 text-emerald-500 py-2 rounded-md hover:text-emerald-600 transition duration-300"
-                    >
-                        <ChevronLeft size={16} />
-                        Back to dashboard
-                    </Link>
                     <h1 className="font-bold text-5xl text-emerald-500">Properties</h1>
                     <p className="text-gray-700 text-2xl">
                         List of all properties ({properties.length} total)
