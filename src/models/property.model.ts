@@ -1,5 +1,5 @@
 export interface Property {
-  id: string;  // Change this to string too for consistency
+  id: string;  
   title: string;
   location: string;
   price: number;
@@ -9,5 +9,6 @@ export interface Property {
   rooms: number;
   squarefeets: number;
   description?: string;
-  ownerId: string;  // Just reference the owner's ObjectId
+  ownerId: string;
+  currency: string;
 }

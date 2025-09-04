@@ -7,7 +7,7 @@ const Dashboard = () => {
   const paths = [
     { icon: <Users size={32} />, title: "Owners", path: "/admin/dashboard/owners" },
     { icon: <BarChart2 size={32} />, title: "Statistics", path: "/admin/dashboard/statistics" },
-    { icon: <MessageCircle size={32} />, title: "Messages", path: "/admin/dashboard/messages" },
+    { icon: <MessageCircle size={32} />, title: "Contact Messages", path: "/admin/dashboard/messages" },
     { icon: <Home size={32} />, title: "Properties", path: "/admin/dashboard/properties" },
   ];
 

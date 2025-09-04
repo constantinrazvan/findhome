@@ -13,7 +13,7 @@ const NavbarElement = () => {
     { id: 2, label: "For rent", href: "/for-rent" },
     { id: 3, label: "For sale", href: "/for-sale" },
     { id: 4, label: "Sell or rent!", href: "/contact" },
-    { id: 5, label: "Admin", href: "/admin" },
+    { id: 5, label: "Admin", href: "/admin/login" },
   ];
 
   const isActive = (href: string) => {
